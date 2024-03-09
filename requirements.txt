@@ -1,0 +1,10 @@
+matplotlib==3.6.0
+numpy==1.23.5
+pandas==1.4.4
+Pillow==10.2.0
+PyYAML==6.0.1
+qpth==0.0.15
+scikit_learn==1.1.1
+tables==3.6.1
+torch==1.12.1+cu116
+tqdm==4.64.1
