@@ -9,4 +9,6 @@ We adapted eight few-shot learning methods for crop type mapping in order to add
 
 [1] Veilleux, Olivier, et al. "Realistic evaluation of transductive few-shot learning." Advances in Neural Information Processing Systems 34 (2021): 9290-9302.
 
-
+### The framework based on TIM and α-TIM methods and the feature extractor network. 
+<p align="center"><img src="https://github.com/Sina-Mohammadi/FewCrop/blob/main/fig/framework.jpg" width="730" height="650"></p>
+<p align="center"><img src="https://github.com/Sina-Mohammadi/FewCrop/blob/main/fig/featureextractor.jpg" width="550" height="420"></p>
