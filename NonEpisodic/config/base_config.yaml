@@ -1,0 +1,55 @@
+TRAINER:
+
+    print_freq: 10
+    meta_val_way: 5
+    meta_val_shot: 1
+    meta_val_metric: 'cosine'  # ('euclidean', 'cosine', 'l1', l2')
+    meta_val_iter: 10000
+    meta_val_query: 15
+    alpha: -1.0
+    label_smoothing: 0.1
+    PretrainedOnSource: True
+    
+    num_classes: 19
+
+OPTIM:
+    epochs: 100
+    gamma: 0.1
+    lr: 0.0001
+    lr_stepsize: 30
+    nesterov: False
+    weight_decay: 0.0
+    optimizer_name: 'Adam'
+    scheduler: 'cosine'
+
+
+
+DATA:
+    dataset_path: 'data_fewcrop'
+    batch_size_loader: 512
+    enlarge: True
+    num_workers: 4
+    disable_random_resize: False
+    jitter: False
+    scenario: "scenario_1"
+
+EVAL:
+
+    number_tasks: 30000 # Number of tasks to evaluate
+    batch_size: 128
+    n_ways: 5
+    n_query: 15 # Balanced case: 15 query data per class
+    sampling_strategy: 'balanced' # ('balanced' | 'dirichlet')
+    alpha_dirichlet: 2
+    model_tag: 'best'
+    plt_metrics: ['accs']
+    shots: [5] #[1,5,10,20]
+    used_set: 'test'
+    fresh_start: False
+
+DISTRIBUTED:
+    cuda: True
+    visdom_port:
+    seed: 2021
+    ckpt_path: 'checkpoints/baseline/conv4/seed2021' # path model checkpoint
+    log_path: 'logs' # path to where log files will be saved 
