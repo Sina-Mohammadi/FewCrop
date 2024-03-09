@@ -12,3 +12,12 @@ We adapted eight few-shot learning methods for crop type mapping in order to add
 ### The framework based on TIM and α-TIM methods and the feature extractor network: 
 <p align="center"><img src="https://github.com/Sina-Mohammadi/FewCrop/blob/main/fig/framework.jpg" width="730" height="650"></p>
 <p align="center"><img src="https://github.com/Sina-Mohammadi/FewCrop/blob/main/fig/featureextractor.jpg" width="550" height="420"></p>
+
+
+## Getting Started
+To install the required packages:
+```
+pip install -r requirements
+```
+## Data
+Download the preprocessed data for the two scenarios from Zenedo using the following links: [sceanrio_1](https://drive.google.com/file/d/1fhoFewOoLPSWWmX5dOeme2rlZJXyyC7A/view?usp=sharing) , [sceanrio_2](https://drive.google.com/file/d/1fhoFewOoLPSWWmX5dOeme2rlZJXyyC7A/view?usp=sharing)
