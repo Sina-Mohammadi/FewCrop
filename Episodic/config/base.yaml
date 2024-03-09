@@ -1,0 +1,54 @@
+
+DATA:
+  scenario: "scenario_1"
+  ckpt_path: 'checkpoints'
+  res_path: 'results'
+
+
+MODEL:
+  arch: 'conv4'
+  use_fc: True
+  PretrainedOnSource: True
+    
+TRAINING:
+  seeds: [2021]
+  batch_size: 1
+  num_workers: 0
+  train_freq: 200
+  train_iter: 100000
+  loss: '_CrossEntropy'
+  focal_gamma: 3
+  label_smoothing: 0.1
+
+VALIDATION:
+  val_batch_size: 1
+  val_iter: 10000 
+  val_freq: 1000
+
+TEST:
+  test_batch_size: 1
+  test_iter: 30000
+
+
+AUGMENTATIONS:
+  beta: 1.0
+  cutmix_prob: 1.0
+  augmentation: 'none'
+
+OPTIM:
+  lr: 0.0001
+  momentum: 0.9
+  weight_decay: 0.0
+  gamma: 0.1
+
+VISU:
+  visu: False
+  max_s_visu: 1
+  max_q_visu: 3
+
+EPISODES:
+  sampling_strategy: 'dirichlet'
+  num_ways: 10  
+  num_support: 5 # number of support samples per class
+  num_query: 15 #number of query samples per class
+
