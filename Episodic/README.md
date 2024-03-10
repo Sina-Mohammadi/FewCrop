@@ -14,3 +14,9 @@ After training is completed, you can test the method of your choice (here MAML) 
 python src/test.py --base_config 'config/base.yaml' --method 'config/maml.yaml' --opts scenario "scenario_1" num_ways 5 num_support 5 sampling_startegy "dirichlet"
 ```
 In the code above, we used the realistic query sampling strategy to test the method.
+
+## Acknowledgements
+
+Special thanks to the authors of the papers "Fhist: A benchmark for few-shot classification of histological images" and "Realistic evaluation of transductive few-shot learning" for publicly sharing their source code (https://github.com/mboudiaf/Few-shot-histology) and (https://github.com/oveilleux/Realistic_Transductive_Few_Shot) from which this repo was inspired from.
+
+
