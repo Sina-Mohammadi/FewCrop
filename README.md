@@ -1,5 +1,5 @@
 # Few-shot Learning for Crop Mapping from Satellite Image Time Series
-The PyTorch implementation code for our paper "Few-shot Learning for Crop Mapping from Satellite Image Time Series".
+The PyTorch implementation code for "Few-shot Learning for Crop Mapping from Satellite Image Time Series".
 
 
 ## The Method
