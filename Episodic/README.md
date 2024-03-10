@@ -1,4 +1,4 @@
-### Usage
+## Usage
 
 After following the instructions on the previous page, you can train the method of your choice using the following code:
 
