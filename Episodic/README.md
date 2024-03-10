@@ -6,7 +6,7 @@ After following the instructions on the previous page, you can train the method 
 python src/train.py --base_config 'config/base.yaml' --method 'config/maml.yaml' --opts scenario "scenario_1" num_ways 5 num_support 5
 ```
 Using the code above, we selected the MAML method, scenario_1, 24-way and 20-shot setting.
-To see the full list of the configurations, see .yaml files provided in the config folder. These configurations can be modified either by directly editing the .yaml file or by putting them next to --opts in the code above (as what we did for scenario, num_ways, and num_support). As the method, you can select either 'maml.yaml', 'protonet.yaml', 'simpleshot.yaml', or 'metaoptnet.yaml.
+To see the full list of the configurations, see .yaml files provided in the config folder. These configurations can be modified either by directly editing the .yaml file or by putting them next to --opts in the code above (as what we did for scenario, num_ways, and num_support). As the method, you can select either 'maml.yaml', 'protonet.yaml', or 'metaoptnet.yaml.
 
 After training is completed, you can test the method of your choice (here MAML) using the following code:
 
