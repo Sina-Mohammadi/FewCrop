@@ -22,5 +22,42 @@ pip install -r requirements
 ## Data
 Download the preprocessed data for the two scenarios from Zenedo using the following links: [sceanrio_1](https://drive.google.com/file/d/1fhoFewOoLPSWWmX5dOeme2rlZJXyyC7A/view?usp=sharing) , [sceanrio_2](https://drive.google.com/file/d/1fhoFewOoLPSWWmX5dOeme2rlZJXyyC7A/view?usp=sharing) - Then after unzipping them, put them in the data_fewcrop folder.
 
+The benchmark dataset is created using the data provided by the following papers: 1) The PASTIS dataset from the paper "Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks", 2) The ZueriCrop dataset from the paper "Crop mapping from image time series: Deep learning with multi-scale label hierarchies", and 3) The Ghana dataset from the paper "Semantic Segmentation of Crop Type in Africa: A Novel Dataset and Analysis of Deep Learning Methods".
+
+Please cite them if you use the benchmark dataset in your paper:
+
+```
+@article{garnot2021panoptic,
+  title={Panoptic Segmentation of Satellite Image Time Series
+with Convolutional Temporal Attention Networks},
+  author={Sainte Fare Garnot, Vivien  and Landrieu, Loic },
+  journal={ICCV},
+  year={2021}
+}
+```
+
+```
+@article{turkoglu2021crop,
+  title={Crop mapping from image time series: Deep learning with multi-scale label hierarchies},
+  author={Turkoglu, Mehmet Ozgur and D'Aronco, Stefano and Perich, Gregor and Liebisch, Frank and Streit, Constantin and Schindler, Konrad and Wegner, Jan Dirk},
+  journal={Remote Sensing of Environment},
+  volume={264},
+  pages={112603},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+
+```
+@inproceedings{m2019semantic,
+  title={Semantic segmentation of crop type in Africa: A novel dataset and analysis of deep learning methods},
+  author={M Rustowicz, Rose and Cheong, Robin and Wang, Lijing and Ermon, Stefano and Burke, Marshall and Lobell, David},
+  booktitle={Proceedings of the IEEE/cvf conference on computer vision and pattern recognition workshops},
+  pages={75--82},
+  year={2019}
+}
+```
+
+
 ## Usage
 The code is divided into two parts: Navigate to the Episodic folder for the episodic methods and navigate to the NonEpisodic folder for the NonEpisodic methods to see the further instructions.
