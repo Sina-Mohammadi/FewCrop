@@ -11,5 +11,6 @@ To see the full list of the configurations, see .yaml files provided in the conf
 After training is completed, you can test the method of your choice (here MAML) using the following code:
 
 ```
-python src/train.py --base_config 'config/base.yaml' --method 'config/maml.yaml' --opts scenario "scenario_1" num_ways 5 num_support 5
+python src/test.py --base_config 'config/base.yaml' --method 'config/maml.yaml' --opts scenario "scenario_1" num_ways 5 num_support 5 sampling_startegy "dirichlet"
 ```
+In the code above, we used the realistic query sampling strategy to test the method.
