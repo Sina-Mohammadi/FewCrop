@@ -157,9 +157,11 @@ class AverageMeter(object):
 def get_model_dir(args: argparse.Namespace, seed: int):
     model_type = args.method
     num_ways = args.num_ways
+    num_support= args.num_support
     return os.path.join(args.ckpt_path,
                         args.scenario,
                         f'num_ways={num_ways}',
+                        f'num_support={num_support}',
                         f'method={model_type}',
                         f'seed={seed}')
 
