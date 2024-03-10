@@ -23,4 +23,4 @@ pip install -r requirements
 Download the preprocessed data for the two scenarios from Zenedo using the following links: [sceanrio_1](https://drive.google.com/file/d/1fhoFewOoLPSWWmX5dOeme2rlZJXyyC7A/view?usp=sharing) , [sceanrio_2](https://drive.google.com/file/d/1fhoFewOoLPSWWmX5dOeme2rlZJXyyC7A/view?usp=sharing) - Then after unzipping them, put them in the data_fewcrop folder.
 
 ## Usage
-The code is divided into two parts: Navigate to the Episodic folder for the episodic methods and Navigate to the NonEpisodic folder for the NonEpisodic methods to see the further instructions.
+The code is divided into two parts: Navigate to the Episodic folder for the episodic methods and navigate to the NonEpisodic folder for the NonEpisodic methods to see the further instructions.
