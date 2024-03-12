@@ -20,5 +20,5 @@ To see the full list of the configurations, see .yaml files provided in the conf
 
 ## Acknowledgements
 
-Special thanks to the authors of the papers "Realistic evaluation of transductive few-shot learning" for publicly sharing their source code (https://github.com/mboudiaf/Few-shot-histology) and (https://github.com/oveilleux/Realistic_Transductive_Few_Shot) from which this repo was inspired from.
+Special thanks to the authors of the papers "Realistic evaluation of transductive few-shot learning" for publicly sharing their source code (https://github.com/oveilleux/Realistic_Transductive_Few_Shot) from which this repo was inspired from.
 
