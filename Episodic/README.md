@@ -17,6 +17,6 @@ In the code above, we used the realistic query sampling strategy to test the met
 
 ## Acknowledgements
 
-Special thanks to the authors of the papers "Fhist: A benchmark for few-shot classification of histological images" and "Realistic evaluation of transductive few-shot learning" for publicly sharing their source code (https://github.com/mboudiaf/Few-shot-histology) and (https://github.com/oveilleux/Realistic_Transductive_Few_Shot) from which this repo was inspired from.
+Special thanks to the authors of the papers "Fhist: A benchmark for few-shot classification of histological images" and "Realistic evaluation of transductive few-shot learning" for publicly sharing their source code (https://github.com/mboudiaf/Few-shot-histology and https://github.com/oveilleux/Realistic_Transductive_Few_Shot) from which this repo was inspired from.
 
 
