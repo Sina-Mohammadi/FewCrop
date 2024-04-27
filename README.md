@@ -19,7 +19,7 @@ To install the required packages:
 pip install -r requirements
 ```
 ## Data
-Download the preprocessed data for the two scenarios from Zenedo using the following links: [scenario_1]([https://zenodo.org/api/records/10802507/draft/files/scenario_1.rar/content](https://zenodo.org/records/10802507/files/scenario_1.rar?download=1)) , [scenario_2]([https://zenodo.org/api/records/10802507/draft/files/scenario_2.rar/content](https://zenodo.org/records/10802507/files/scenario_2.rar?download=1)) - Then after unzipping them, put them in the data_fewcrop folder.
+Download the preprocessed data for the two scenarios from Zenedo using the following links: [scenario_1]([https://zenodo.org/records/10802507/files/scenario_1.rar?download=1]) , [scenario_2]([https://zenodo.org/api/records/10802507/draft/files/scenario_2.rar/content](https://zenodo.org/records/10802507/files/scenario_2.rar?download=1)) - Then after unzipping them, put them in the data_fewcrop folder.
 
 The benchmark dataset is created using the data provided by the following papers: 1) The PASTIS dataset from the paper "Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks", 2) The ZueriCrop dataset from the paper "Crop mapping from image time series: Deep learning with multi-scale label hierarchies", and 3) The Ghana dataset from the paper "Semantic Segmentation of Crop Type in Africa: A Novel Dataset and Analysis of Deep Learning Methods". Please cite them if you use the benchmark dataset in your paper:
 
